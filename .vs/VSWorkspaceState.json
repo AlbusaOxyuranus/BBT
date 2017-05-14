@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\scr",
+    "\\scr\\BlackBee.Toolkit"
   ],
-  "SelectedNode": "\\scr",
+  "SelectedNode": "\\scr\\BlackBee.Toolkit\\BlackBee.Toolkit.sln",
   "PreviewInSolutionExplorer": false
 }
