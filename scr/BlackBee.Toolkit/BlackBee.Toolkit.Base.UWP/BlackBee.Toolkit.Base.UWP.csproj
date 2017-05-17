@@ -106,6 +106,21 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\BlackBee.Toolkit.Base\Commands\AsyncCommand.cs">
+      <Link>Commands\AsyncCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\BlackBee.Toolkit.Base\Commands\AsyncCommandBase.cs">
+      <Link>Commands\AsyncCommandBase.cs</Link>
+    </Compile>
+    <Compile Include="..\BlackBee.Toolkit.Base\Commands\IAsyncCommand.cs">
+      <Link>Commands\IAsyncCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\BlackBee.Toolkit.Base\Commands\NotifyTaskCompletion.cs">
+      <Link>Commands\NotifyTaskCompletion.cs</Link>
+    </Compile>
+    <Compile Include="..\BlackBee.Toolkit.Base\Commands\RelayCommand.cs">
+      <Link>Commands\RelayCommand.cs</Link>
+    </Compile>
     <Compile Include="..\BlackBee.Toolkit.Base\ObservableObject.cs">
       <Link>ObservableObject.cs</Link>
     </Compile>
@@ -117,6 +132,7 @@
       <Version>5.2.3</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
