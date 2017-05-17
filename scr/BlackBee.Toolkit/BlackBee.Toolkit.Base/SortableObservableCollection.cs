@@ -5,6 +5,10 @@ using System.Linq;
 
 namespace BlackBee.Toolkit.Base
 {
+    /// <summary>
+    /// The base class that implements <see cref="ObservableCollection<T>"/> 
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class SortableObservableCollection<T> : ObservableCollection<T>
     {
         public SortableObservableCollection(IEnumerable<T> collection) :
