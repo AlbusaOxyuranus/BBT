@@ -124,6 +124,9 @@
     <Compile Include="..\BlackBee.Toolkit.Base\ObservableObject.cs">
       <Link>ObservableObject.cs</Link>
     </Compile>
+    <Compile Include="..\BlackBee.Toolkit.Base\SortableObservableCollection.cs">
+      <Link>SortableObservableCollection.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\BlackBee.Toolkit.Base.UWP.rd.xml" />
   </ItemGroup>
