@@ -2,7 +2,6 @@
 using System.Windows.Input;
 
 namespace BlackBee.Toolkit.Base.Commands
-{
     /// <summary>
     /// A command whose sole purpose is to relay its functionality 
     /// to other objects by invoking delegates. 
@@ -10,7 +9,7 @@ namespace BlackBee.Toolkit.Base.Commands
     /// <see cref="RaiseCanExecuteChanged"/> needs to be called whenever
     /// <see cref="CanExecute"/> is expected to return a different value.
     /// </summary>
-    public class RelayCommand : ICommand
+public class RelayCommand : ICommand
     {
         private readonly Action _execute;
         private readonly Func<bool> _canExecute;
